@@ -18,7 +18,7 @@ export default function WhatsAppForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappNumber = "923369440865";
+    const whatsappNumber = "923320405516";
     const message = `Full Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ABudget: ${formData.budget}%0APlanning to Buy: ${formData.timeToBuy}`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
     window.open(whatsappLink, "_blank");
@@ -32,7 +32,7 @@ export default function WhatsAppForm() {
 
       <div className="flex items-center justify-between w-full max-w-2xl">
         <motion.img
-          src="/1.jpg"
+          src="/images.jpeg"
           alt="Client"
           className="w-32 h-34 rounded-full border-4 border-green-500 mb-6"
           initial={{ opacity: 0, scale: 0.5 }}
