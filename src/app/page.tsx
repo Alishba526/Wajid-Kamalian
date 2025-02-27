@@ -18,7 +18,7 @@ export default function WhatsAppForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappNumber = "923320405516";
+    const whatsappNumber = "+923369440865";
     const message = `Full Name: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ABudget: ${formData.budget}%0APlanning to Buy: ${formData.timeToBuy}`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
     window.open(whatsappLink, "_blank");
