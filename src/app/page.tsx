@@ -32,7 +32,7 @@ export default function WhatsAppForm() {
 
       <div className="flex items-center justify-between w-full max-w-2xl">
         <motion.img
-          src="/images.jpeg"
+          src="/1.jpg"
           alt="Client"
           className="w-32 h-34 rounded-full border-4 border-green-500 mb-6"
           initial={{ opacity: 0, scale: 0.5 }}
